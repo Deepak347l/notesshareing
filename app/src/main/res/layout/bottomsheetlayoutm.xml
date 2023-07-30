@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_bg">
+
+    <RadioGroup
+        android:id="@+id/radio_group5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#dbeceb"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/choosetxt5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Choose"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <RadioButton
+            android:id="@+id/red5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11th(Arts/Science/Commerce)"
+            />
+
+        <RadioButton
+            android:id="@+id/green5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12th(Arts/Science/Commerce)"
+            />
+
+        <RadioButton
+            android:id="@+id/yellow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bsc(All Honours)"
+            />
+        <RadioButton
+            android:id="@+id/yellow55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BA(All Honours)"
+            />
+        <RadioButton
+            android:id="@+id/yellow555"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Btech(All department)"
+            />
+        <RadioButton
+            android:id="@+id/yellow5555"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B.Com(Bachelor of Commerce)"
+            />
+        <RadioButton
+            android:id="@+id/yellow55555"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BCA(Bachelors's in Computer Application)"
+            />
+        <RadioButton
+            android:id="@+id/yellow555555"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BBA(Bachelor of Business Administration)"
+            />
+        <RadioButton
+            android:id="@+id/yellow5555555"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Others"
+            />
+    </RadioGroup>
+    <Button
+        android:id="@+id/buttonxxx5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Apply"
+        app:backgroundTint="#2196F3" />
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "691779550475",
+    "project_id": "notes-shareing",
+    "storage_bucket": "notes-shareing.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691779550475:android:9d004adc49fde79ad1f60e",
+        "android_client_info": {
+          "package_name": "com.contactdevloperdk.notesshareing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "691779550475-ue6jsq4upa2tv10guf4d3gmmoilsao27.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5cGK0QWQFjn1R9amwJuORfNeFaQO7YV4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "691779550475-ue6jsq4upa2tv10guf4d3gmmoilsao27.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
